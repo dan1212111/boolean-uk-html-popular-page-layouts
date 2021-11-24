@@ -33,6 +33,7 @@
 .main {
     background-color: aqua;
     grid-area: main ;
+    
 }
 
 .right-top {
@@ -54,3 +55,4 @@
     background-color: pink;
     grid-area: side;
 }
+

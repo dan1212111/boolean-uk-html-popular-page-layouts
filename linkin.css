@@ -1,0 +1,57 @@
+.layout {
+height: 100vh;
+display: grid;
+grid-template:
+
+"header        header          header"            50px
+"top-left       top-main        top-right"        50px
+"middle-left     main            top-main"         50px
+"left-footer      main            right-footer"    2fr/
+  50px              50px               50px;
+
+}
+
+.header {
+    background-color: aliceblue;
+    grid-area: header;
+}
+
+.profile {
+    background-color: antiquewhite;
+    grid-area: top-left;
+}
+
+.boolean {
+    background-color: aqua;
+    grid-area: middle-left;
+}
+
+.recent {
+    background-color: aquamarine;
+    grid-area: left-footer;
+}
+
+.search {
+    background-color: cadetblue;
+    grid-area: top-main;
+}
+
+.main {
+    background-color: blueviolet;
+    grid-area: main;
+}
+
+.news {
+    background-color: darkkhaki;
+    grid-area: top-right;
+}
+
+.today {
+    background-color: mediumslateblue;
+    grid-area: middle-right;
+}
+
+.add {
+    background-color: yellowgreen;
+    grid-area: right-footer;
+}
