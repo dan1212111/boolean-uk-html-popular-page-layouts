@@ -1,0 +1,56 @@
+.layout {
+    display: grid;
+    height: 100vh;
+    grid-template: 
+    "header       header    header        header"         50px
+    "left-top     main     right-top      side"          1fr
+    "left-middle  main     right-middle   side"          1fr
+    "left-footer  main     right-footer   side"          1fr/
+     1fr          250px        1fr            50px;
+    
+}
+
+.header {
+    background-color: aqua;
+    grid-area: header;
+}
+
+.left-top {
+    background-color: blueviolet;
+    grid-area: left-top;
+}
+
+.left-middle {
+    background-color: purple;
+    grid-area: left-middle;
+}
+
+.left-footer {
+    background-color: crimson;
+    grid-area: left-footer;
+}
+
+.main {
+    background-color: aqua;
+    grid-area: main ;
+}
+
+.right-top {
+    background-color: aquamarine;
+    grid-area: right-top;
+}
+
+.right-middle {
+    background-color: black;
+    grid-area: right-middle;
+}
+
+.right-footer {
+    background-color: brown;
+    grid-area: right-footer;
+}
+
+.side {
+    background-color: pink;
+    grid-area: side;
+}
