@@ -51,7 +51,3 @@ grid-template:
     grid-area: middle-right;
 }
 
-.add {
-    background-color: yellowgreen;
-    grid-area: right-footer;
-}
