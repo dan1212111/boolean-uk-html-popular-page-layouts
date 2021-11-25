@@ -39,6 +39,7 @@ grid-template:
 .main {
     background-color: blueviolet;
     grid-area: main;
+    
 }
 
 .news {
