@@ -1,13 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
 .layout {
 height: 100vh;
+gap:10px;
 display: grid;
 grid-template:
 
 "header        header          header"            50px
 "top-left       top-main        top-right"        50px
-"middle-left     main            top-main"         50px
-"left-footer      main            right-footer"    2fr/
-  50px              50px               50px;
+"middle-left     main            middle-right"         50px
+"left-footer      main            right-footer"    1fr/
+  50px              1fr               1fr;
 
 }
 
@@ -39,6 +44,7 @@ grid-template:
 .main {
     background-color: blueviolet;
     grid-area: main;
+    min-width: 200px;
     
 }
 
@@ -50,5 +56,11 @@ grid-template:
 .today {
     background-color: mediumslateblue;
     grid-area: middle-right;
+}
+
+.add {
+    background-color: beige;
+    grid-area:right-footer;
+    min-width: 50px;
 }
 
